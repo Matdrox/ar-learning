@@ -13,6 +13,12 @@
 		0530229529EC02710010C8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0530229329EC02710010C8EC /* Main.storyboard */; };
 		0530229729EC02710010C8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0530229629EC02710010C8EC /* Assets.xcassets */; };
 		0530229A29EC02710010C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0530229829EC02710010C8EC /* LaunchScreen.storyboard */; };
+		058376D929EC191000AD33EA /* modelHouse.dae in Resources */ = {isa = PBXBuildFile; fileRef = 058376D829EC191000AD33EA /* modelHouse.dae */; settings = {ATTRIBUTES = ("--decompress", ); }; };
+		058376DB29EC1B1400AD33EA /* modelArch.dae in Resources */ = {isa = PBXBuildFile; fileRef = 058376DA29EC1B1400AD33EA /* modelArch.dae */; settings = {ATTRIBUTES = ("--decompress", ); }; };
+		058376DD29EC1B6300AD33EA /* modelPhone.dae in Resources */ = {isa = PBXBuildFile; fileRef = 058376DC29EC1B6200AD33EA /* modelPhone.dae */; };
+		058376DF29EC27C900AD33EA /* modelArena.obj in Resources */ = {isa = PBXBuildFile; fileRef = 058376DE29EC27C900AD33EA /* modelArena.obj */; };
+		058376E129EC321600AD33EA /* modelBlocks.usd in Resources */ = {isa = PBXBuildFile; fileRef = 058376E029EC321600AD33EA /* modelBlocks.usd */; };
+		058376E329EC352C00AD33EA /* modelChair.usd in Resources */ = {isa = PBXBuildFile; fileRef = 058376E229EC352C00AD33EA /* modelChair.usd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		0530229429EC02710010C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0530229629EC02710010C8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0530229929EC02710010C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058376D829EC191000AD33EA /* modelHouse.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = modelHouse.dae; sourceTree = "<group>"; };
+		058376DA29EC1B1400AD33EA /* modelArch.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = modelArch.dae; sourceTree = "<group>"; };
+		058376DC29EC1B6200AD33EA /* modelPhone.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = modelPhone.dae; sourceTree = "<group>"; };
+		058376DE29EC27C900AD33EA /* modelArena.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = modelArena.obj; sourceTree = "<group>"; };
+		058376E029EC321600AD33EA /* modelBlocks.usd */ = {isa = PBXFileReference; lastKnownFileType = file; path = modelBlocks.usd; sourceTree = "<group>"; };
+		058376E229EC352C00AD33EA /* modelChair.usd */ = {isa = PBXFileReference; lastKnownFileType = file; path = modelChair.usd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 				0530228B29EC02710010C8EC /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		0530228B29EC02710010C8EC /* Products */ = {
 			isa = PBXGroup;
@@ -55,12 +68,18 @@
 		0530228C29EC02710010C8EC /* ar-learning */ = {
 			isa = PBXGroup;
 			children = (
+				058376D829EC191000AD33EA /* modelHouse.dae */,
 				0530228D29EC02710010C8EC /* AppDelegate.swift */,
 				0530228F29EC02710010C8EC /* ViewController.swift */,
 				0530229129EC02710010C8EC /* Experience.rcproject */,
 				0530229329EC02710010C8EC /* Main.storyboard */,
 				0530229629EC02710010C8EC /* Assets.xcassets */,
 				0530229829EC02710010C8EC /* LaunchScreen.storyboard */,
+				058376DA29EC1B1400AD33EA /* modelArch.dae */,
+				058376DC29EC1B6200AD33EA /* modelPhone.dae */,
+				058376DE29EC27C900AD33EA /* modelArena.obj */,
+				058376E029EC321600AD33EA /* modelBlocks.usd */,
+				058376E229EC352C00AD33EA /* modelChair.usd */,
 			);
 			path = "ar-learning";
 			sourceTree = "<group>";
@@ -123,9 +142,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058376E129EC321600AD33EA /* modelBlocks.usd in Resources */,
+				058376E329EC352C00AD33EA /* modelChair.usd in Resources */,
 				0530229A29EC02710010C8EC /* LaunchScreen.storyboard in Resources */,
+				058376DD29EC1B6300AD33EA /* modelPhone.dae in Resources */,
 				0530229729EC02710010C8EC /* Assets.xcassets in Resources */,
+				058376DF29EC27C900AD33EA /* modelArena.obj in Resources */,
+				058376DB29EC1B1400AD33EA /* modelArch.dae in Resources */,
 				0530229529EC02710010C8EC /* Main.storyboard in Resources */,
+				058376D929EC191000AD33EA /* modelHouse.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +320,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +351,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
